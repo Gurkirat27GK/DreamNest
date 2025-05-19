@@ -8,8 +8,8 @@
 
 ## Deployed App
 - **Frontend**: [https://dream-nest-ashy.vercel.app](https://dream-nest-ashy.vercel.app)
-- **Backend**: _Coming Soon (hosted on Node.js server)_
-- **Database**: _MongoDB Atlas (private connection string)_
+- **Backend**: Hosted on Render
+- **Database**: MongoDB Atlas
 
 ## Directory Structure
 dream-nest/
@@ -32,12 +32,6 @@ dream-nest/
 pgsql
 Copy
 Edit
-
-## Video Walkthrough of the Project
-📽️ [Attach a 1–3 minute video link showing app usage and main features]
-
-## Video Walkthrough of the Codebase
-📽️ [Attach a 3–5 minute video link explaining the code and structure]
 
 ## Features
 
