@@ -1,76 +1,67 @@
-DreamNest
-Introduction
-DreamNest is a full-stack rental property web application built using the MERN stack (MongoDB, Express.js, React, Node.js). The platform enables seamless interaction between property seekers and owners, allowing users to list, search, and book rental properties. It provides an intuitive, mobile-responsive interface with robust backend support, solving the problem of scattered and inefficient rental property discovery and management.
+# DreamNest
 
-Project Type
-Fullstack
+## Introduction
+**DreamNest** is a full-stack rental property web application built using the MERN stack (MongoDB, Express.js, React, Node.js). The platform enables seamless interaction between property seekers and owners, allowing users to list, search, and book rental properties. It provides an intuitive, mobile-responsive interface with robust backend support, solving the problem of scattered and inefficient rental property discovery and management.
 
-Deployed App
-Frontend: https://dream-nest-ashy.vercel.app
+## Project Type
+**Fullstack**
 
-Backend: Coming Soon (hosted on Node.js server)
+## Deployed App
+- **Frontend**: [https://dream-nest-ashy.vercel.app](https://dream-nest-ashy.vercel.app)
+- **Backend**: _Coming Soon (hosted on Node.js server)_
+- **Database**: _MongoDB Atlas (private connection string)_
 
-Database: MongoDB Atlas (private connection string)
+## Directory Structure
+dream-nest/
+├─ backend/
+│ ├─ config/
+│ ├─ controllers/
+│ ├─ models/
+│ ├─ routes/
+│ ├─ server.js
+├─ frontend/
+│ ├─ public/
+│ ├─ src/
+│ │ ├─ assets/
+│ │ ├─ components/
+│ │ ├─ pages/
+│ │ ├─ context/
+│ │ ├─ App.js
+│ │ ├─ index.js
 
-Directory Structure
 pgsql
 Copy
 Edit
-dream-nest/
-├─ backend/
-│  ├─ config/
-│  ├─ controllers/
-│  ├─ models/
-│  ├─ routes/
-│  ├─ server.js
-├─ frontend/
-│  ├─ public/
-│  ├─ src/
-│  │  ├─ assets/
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  ├─ context/
-│  │  ├─ App.js
-│  │  ├─ index.js
-Video Walkthrough of the Project
-📽️ [Attach a 1-3 minute video link showing app usage and main features]
 
-Video Walkthrough of the Codebase
-📽️ [Attach a 3-5 minute video link explaining the code and structure]
+## Video Walkthrough of the Project
+📽️ [Attach a 1–3 minute video link showing app usage and main features]
 
-Features
-User authentication (signup/login using JWT & bcrypt)
+## Video Walkthrough of the Codebase
+📽️ [Attach a 3–5 minute video link explaining the code and structure]
 
-Property listing by owners with images
+## Features
 
-Search & filter properties by category, location, price
+- User authentication (signup/login using JWT & bcrypt)
+- Property listing by owners with images
+- Search & filter properties by category, location, price
+- Booking & wishlist functionality for users
+- Role-based dashboards (Owner vs. Seeker)
+- Responsive design with a smooth UX
+- MongoDB-based data persistence with Mongoose schemas
+- Secure backend API endpoints
 
-Booking & wishlist functionality for users
+## Design Decisions or Assumptions
 
-Role-based dashboards (Owner vs. Seeker)
+- Image uploads handled via MongoDB Base64 (for simplicity)
+- Used Material UI for cleaner and responsive design
+- Single-page application with React Router
+- All users must register to book or list a property
+- Only authenticated users can view dashboards
 
-Responsive design with a smooth UX
+## Installation & Getting Started
 
-MongoDB-based data persistence with Mongoose schemas
-
-Secure backend API endpoints
-
-Design Decisions or Assumptions
-Image uploads handled via MongoDB Base64 (for simplicity)
-
-Used Material UI for cleaner and responsive design
-
-Single-page application with React Router
-
-All users must register to book or list a property
-
-Only authenticated users can view dashboards
-
-Installation & Getting Started
-Backend
-bash
-Copy
-Edit
+### Backend
+```bash
 cd backend
 npm install
 npm run dev
