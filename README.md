@@ -12,26 +12,25 @@
 - **Database**: MongoDB Atlas
 
 ## Directory Structure
-dream-nest/
-├─ backend/
-│ ├─ config/
-│ ├─ controllers/
-│ ├─ models/
-│ ├─ routes/
-│ ├─ server.js
-├─ frontend/
-│ ├─ public/
-│ ├─ src/
-│ │ ├─ assets/
-│ │ ├─ components/
-│ │ ├─ pages/
-│ │ ├─ context/
-│ │ ├─ App.js
-│ │ ├─ index.js
 
-pgsql
-Copy
-Edit
+<pre>
+dream-nest/
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── assets/
+│       ├── components/
+│       ├── pages/
+│       ├── context/
+│       ├── App.js
+│       └── index.js
+</pre>
 
 ## Features
 
